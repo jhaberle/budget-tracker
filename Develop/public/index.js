@@ -140,6 +140,7 @@ function sendTransaction(isAdding) {
     amountEl.value = "";
   });
 }
+export default saveRecord; 
 
 document.querySelector("#add-btn").addEventListener("click", function(event) {
   event.preventDefault();
