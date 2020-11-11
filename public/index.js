@@ -22,7 +22,7 @@ function populateTotal() {
   }, 0);
 
   const totalEl = document.querySelector("#total");
-  totalEl.textContent = total;
+  totalEl.textContent = total; 
 }
 
 function populateTable() {
